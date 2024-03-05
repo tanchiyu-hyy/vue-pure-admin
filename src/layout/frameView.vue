@@ -29,6 +29,7 @@ function hideLoading() {
 }
 
 function init() {
+  console.log(1);
   nextTick(() => {
     const iframe = unref(frameRef);
     if (!iframe) return;
